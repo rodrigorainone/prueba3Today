@@ -157,13 +157,8 @@ body{
     font-size: 40px;
     left: 70%;
     display: none;
+    pointer-events: none;
 }
 
-.uno img:hover ~ .displayh1,
-.dos img:hover ~ .displayh1,
-.tres img:hover ~ .displayh1,
-.cuatro img:hover ~ .displayh1 {
-  display: block;
-}
- 
+
 

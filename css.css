@@ -1,7 +1,7 @@
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
+    background-color: black;
+    
 }
 
 .container{
@@ -10,6 +10,7 @@ body{
     position: relative;
     background-color: black;
     overflow: hidden;  
+    margin-top: 40px;
 }
 
 
@@ -100,7 +101,20 @@ body{
     display: flex;
     justify-content:space-between ;
     align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('./fondo.png');
+    background-size:cover;
+    margin-top: 20px;
+    font-family: 'Sansita Swashed', cursive;
+    
   }
+
+  .menu ul li:hover{
+    color: #F24E1E;
+    text-decoration: underline;
+
+  }
+  
+
 
   .menu img{
     margin-top: 20px;
@@ -114,7 +128,7 @@ body{
     list-style: none;
     display: flex;
     gap:60px;
-    font-size: 30px;
+    font-size: 28px;
     margin-right: 130px;
   }
 
@@ -126,38 +140,44 @@ body{
   .uno p{
     position: absolute;
     z-index: 10;
-    color: red;
+    color: #F24E1E;
     font-size: 40px;
     left: 20%;
     display: none;
+    font-family: 'Sansita Swashed', cursive;
+   
+   
   }
 
   .dos p {
     position: absolute;
     z-index: 10;
-    color: red;
+    color: #F24E1E;
     font-size: 40px;
     left: 50%;
     display: none;
+    font-family: 'Sansita Swashed', cursive;
   }
 
   .tres p {
     position: absolute;
     z-index: 10;
-    color: red;
+    color: #F24E1E;
     font-size: 40px;
     left: 50%;
     display: none;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .cuatro p {
     position: absolute;
     z-index: 10;
-    color: red;
+    color: #F24E1E;
     font-size: 40px;
     left: 70%;
     display: none;
     pointer-events: none;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 
